@@ -1,0 +1,124 @@
+{
+    "org": "@wpmedia/",
+    "useLocal": false,
+    "useLocalEngineSDK": false,
+    "useLocalCSSFramework": false,
+    "localeList": [
+        "en"
+    ],
+    "blocks": [
+        "@wpmedia/global-phrases-block",
+        "@wpmedia/alert-bar-block",
+        "@wpmedia/article-body-block",
+        "@wpmedia/alert-bar-content-source-block",
+        "@wpmedia/article-tag-block",
+        "@wpmedia/author-bio-block",
+        "@wpmedia/byline-block",
+        "@wpmedia/card-list-block",
+        "@wpmedia/date-block",
+        "@wpmedia/double-chain-block",
+        "@wpmedia/extra-large-manual-promo-block",
+        "@wpmedia/extra-large-promo-block",
+        "@wpmedia/footer-block",
+        "@wpmedia/full-author-bio-block",
+        "@wpmedia/gallery-block",
+        "@wpmedia/header-block",
+        "@wpmedia/header-nav-block",
+        "@wpmedia/header-nav-chain-block",
+        "@wpmedia/headline-block",
+        "@wpmedia/htmlbox-block",
+        "@wpmedia/large-manual-promo-block",
+        "@wpmedia/large-promo-block",
+        "@wpmedia/lead-art-block",
+        "@wpmedia/links-bar-block",
+        "@wpmedia/masthead-block",
+        "@wpmedia/medium-manual-promo-block",
+        "@wpmedia/medium-promo-block",
+        "@wpmedia/numbered-list-block",
+        "@wpmedia/overline-block",
+        "@wpmedia/quad-chain-block",
+        "@wpmedia/results-list-block",
+        "@wpmedia/right-rail-block",
+        "@wpmedia/right-rail-advanced-block",
+        "@wpmedia/search-results-list-block",
+        "@wpmedia/section-title-block",
+        "@wpmedia/share-bar-block",
+        "@wpmedia/shared-styles",
+        "@wpmedia/simple-list-block",
+        "@wpmedia/single-chain-block",
+        "@wpmedia/small-manual-promo-block",
+        "@wpmedia/small-promo-block",
+        "@wpmedia/subheadline-block",
+        "@wpmedia/tag-title-block",
+        "@wpmedia/text-output-block",
+        "@wpmedia/textfile-block",
+        "@wpmedia/top-table-list-block",
+        "@wpmedia/triple-chain-block",
+        "@wpmedia/video-player-block",
+        "@wpmedia/content-api-source-block",
+        "@wpmedia/collections-content-source-block",
+        "@wpmedia/author-content-source-block",
+        "@wpmedia/search-content-source-block",
+        "@wpmedia/site-hierarchy-content-block",
+        "@wpmedia/story-feed-author-content-source-block",
+        "@wpmedia/story-feed-query-content-source-block",
+        "@wpmedia/story-feed-sections-content-source-block",
+        "@wpmedia/story-feed-tag-content-source-block",
+        "@wpmedia/tags-content-source-block",
+        "@wpmedia/unpublished-content-source-block",
+        "@wpmedia/resizer-image-block",
+        "@wpmedia/resizer-image-content-source-block",
+        "@wpmedia/placeholder-image-block",
+        "@wpmedia/event-tester-block"
+    ],
+    "engineSDK": "@wpmedia/engine-theme-sdk",
+    "cssFramework": "@wpmedia/news-theme-css",
+    "cssImport": "@wpmedia/news-theme-css/scss/_index.scss",
+    "sassImport": [
+        "@wpmedia/news-theme-css/scss/_variables.scss",
+        "@wpmedia/news-theme-css/scss/_functions.scss",
+        "@wpmedia/news-theme-css/scss/_colors.scss",
+        "@wpmedia/news-theme-css/scss/_breakpoints.scss",
+        "@wpmedia/news-theme-css/scss/_mixins.scss"
+    ],
+    "sassVariableOverrides": [
+        "$primary-font-family: $theme-primary-font-family;",
+        "$secondary-font-family: $theme-primary-font-family;",
+        "$primary-color: $theme-primary-color;"
+    ],
+    "values": {
+        "default": {
+            "siteProperties": {
+                "feedTitle": "Outbound Feeds",
+                "feedDomainURL": "<http://localhost>",
+                "feedLanguage": "en",
+                "resizerURL": "<http://localhost/resizer>",
+                "feedDefaultQuery": [
+                    {
+                        "term":
+                        {"type":"story"}
+                    },
+                    {
+                        "range":
+                        {
+                            "display_date":
+                            {
+                                "gte": "now-2d",
+                                "lte": "now"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "sites": {
+            "pyxis": {
+                "siteProperties": {
+                    "feedTitle": "website 1",
+                    "feedDomainURL": "<https://www.website1.com>",
+                    "feedLanguage": "en",
+                    "resizerURL": "<https://www.website1.com/resizer>"                }
+            }
+        }
+    }
+}
