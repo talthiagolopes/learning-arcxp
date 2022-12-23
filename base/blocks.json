@@ -108,16 +108,80 @@
                             }
                         }
                     }
-                ]
+                ],
+                "websiteDomain": "https://sandbox.pyxis.arcpublishing.com",
+                "websiteName": "Arc Dev Training",
+                "primaryLogo": "resources/logo/inverted-logo.webp",
+                "primaryLogoAlt": "Arc Dev Training logo",
+                "fallbackImage": "https://via.placeholder.com/150?text=Placeholder+Image",
+                "facebookPage": "https://www.facebook.com/arcdevtraining",
+                "twitterUsername": "arcdevtraining",
+                "rssUrl": "http://feeds.arcdevtraining.com/rss/homepage",
+                "copyrightText": "arcdevtraining.com © 1996-2020 Arc Dev Training",
+                "breakpoints": {
+                    "small": 0,
+                    "medium": 768,
+                    "large": 992
+                },
+                "imageWidths": [
+                    84,
+                    105,
+                    158,
+                    274,
+                    377,
+                    400,
+                    600,
+                    768,
+                    800,
+                    1024,
+                    1440,
+                    1600
+                ],
+                "aspectRatios": [
+                    "3:2",
+                    "4:3",
+                    "1:0",
+                    "16:9",
+                    "1:1"
+                ],
+                "dangerouslyInjectJS": [],
+                "dateLocalization": {
+                    "language": "en",
+                    "timeZone": "America/New_York",
+                    "dateTimeFormat": "%B %d, %Y at %l:%M %P %Z",
+                    "dateFormat": "%B %d, %Y"
+                },
+                "locale": "en"
+                },
+                "styleProperties": {
+                "primary-font-family": "Arial, 'Helvetica Neue', Helvetica, sans-serif",
+                "secondary-font-family": "Georgia, Times, Times New Roman, serif",
+                "primary-color": "#6bc1ae"
             }
         },
         "sites": {
             "pyxis": {
                 "siteProperties": {
+                    "websiteDomain": "https://www.pyxis.com/",
                     "feedTitle": "website 1",
                     "feedDomainURL": "<https://www.website1.com>",
                     "feedLanguage": "en",
-                    "resizerURL": "<https://www.website1.com/resizer>"                }
+                    "resizerURL": "<https://www.website1.com/resizer>",
+                    "siteDomain": "https://sandbox.pyxis.arcpublishing.com/",
+                    "api": {
+                        "identity": {
+                            "origin": "https://api.sandbox.pyxis.arcpublishing.com"
+                        },"retail": {
+                            "endpoint": "/retail/public/v1/offer/live/",
+                            "origin": "https://api.sandbox.pyxis.arcpublishing.com"
+                        }
+                    }
+                },
+                "styleProperties": {
+                    "primary-font-family": "Roslindale, serif",
+                    "secondary-font-family": "Roslindale, serif",
+                    "primary-color": "#2575fc"
+                }
             }
         }
     }

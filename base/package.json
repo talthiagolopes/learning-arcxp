@@ -15,6 +15,10 @@
     "@arc-fusion/cli": "^2.0.9"
   },
   "dependencies": {
+    "@arc-publishing/sdk-identity": "^1.70.0",
+    "@arc-publishing/sdk-sales": "^1.70.0",
+    "iframe-resizer-react": "^1.1.0",
+    "react-thumbor-img": "^4.0.3",
     "semver": "^7.3.8"
   }
 }
